@@ -1,0 +1,23 @@
+{
+  "name": "cargo-test-web",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-bootstrap": "^2.2.3",
+    "react-dom": "18.0.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
